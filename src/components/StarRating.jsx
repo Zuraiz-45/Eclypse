@@ -1,0 +1,1 @@
+export default function StarRating({ rating, reviews = true }) { return <div className="flex items-center gap-2 text-xs"><span className="tracking-widest text-lavender">★★★★★</span><span className="text-white/45">{rating} {reviews && '(reviews)'}</span></div> }
